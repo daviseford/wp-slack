@@ -1,0 +1,12 @@
+Slack Plugin Problems:
+
+Doesn't appear in admin Menu
+Solution: access /wp-admin/edit.php?post_type=slack_integration
+
+Problem:
+
+Doesn't work when uploaded as 'wp-slack'
+
+Solution:
+
+Upload to 'slack'

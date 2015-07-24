@@ -96,7 +96,7 @@ class WP_Slack_Event_Manager {
 			'post_published_newsedge' => array(
 				'action'      => 'transition_post_status',
 				'description' => __( 'When a post is tagged with Newsedge', 'slack' ),
-				'default'     => true,
+				'default'     => false,
 				'message'     => function( $new_status, $old_status, $post ) {
 					$notified_post_types = apply_filters( 'slack_event_transition_post_status_post_types', array(
 						'post',
